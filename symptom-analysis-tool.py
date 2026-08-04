@@ -38,10 +38,10 @@ def check_conditions(symptom_entry):
             matched_conditions.append(condition)
 
     if matched_conditions:
-        print("\nBased on your symptoms, you might have:")
+        print("\nThese symptoms can be asscoiated with:")
         for matched_condition in matched_conditions:
             print(f"-{matched_condition}") # print the name of the condition
-        print("Please consider visiting your GP for a professional diagnosis.")
+        print("Please visit your GP for more understanding and a professional opinion.")
 
     else:
 # if no conditions had 3 or more symptoms in common, inform the user accordingly
